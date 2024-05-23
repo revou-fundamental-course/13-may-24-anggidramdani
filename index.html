@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KATIK :: Kalkulator Matematik</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>KATIK <span class="subtitle">Kalkulator Matematik</span></header>
+    <main>
+        <div class="desc">Selamat datang di Kalkulator Luas Segitiga.</div>
+        <div class="flex-container">
+            <div class="flex-item-left">
+                <img src="img/Luassegitiga.png" width="300">
+                <p><input type="number" placeholder="Alas" name="alas" required>
+                    <input type="number" placeholder="Tinggi" name="tinggi" required>
+                    <button onclick="hitungLuas()">Hitung</button>
+                    <button onclick="resetLuas()">Reset</button>
+                <div class="output-section-luas" id="output-section-luas" hidden>
+                    <span>Hasil Perhitungan:</span><br> Luas = <span id="output_luas"></span></p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>by <a href="https://github.com/anggidramdani" target="_blank" rel="noopener noreferrer">Anggi Dwi Ramdani</a></central></footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
