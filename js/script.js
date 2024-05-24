@@ -18,3 +18,39 @@ function resetLuas() {
     document.getElementById("output_luas").textContent = "";
     document.getElementById("output-section-luas").hidden = true;
 }
+
+// function hitungKeliling() {
+//     var sisi = document.getElementsByName("sisi")[0].value;
+//     if (sisi == "") {
+//         alert("Masukkan Angka terlebih dahulu");
+//         return false;
+//     }
+//     var keliling = sisi * sisi * sisi;
+//     document.getElementById("output_keliling").textContent = luas;
+//     document.getElementById("output-section-keliling").hidden = false;
+// }
+
+// function resetKeliling() {
+//     var sisi = document.getElementsByName("sisi")[0];
+//     sisi.value = "";
+//     document.getElementById("output_keliling").textContent = "";
+//     document.getElementById("output-section-keliling").hidden = true;
+// }
+
+function hitungKeliling() {
+    var sisi = document.getElementsByName("sisi")[0].value;
+    if (sisi == "") {
+        alert("Masukkan Angka terlebih dahulu");
+        return false;
+    }
+    var keliling = 3 * sisi;
+    document.getElementById("output_keliling").textContent = keliling;
+    document.getElementById("output-section-keliling").hidden = false;
+}
+
+function resetKeliling() {
+    var sisi = document.getElementsByName("sisi")[0];
+    sisi.value = "";
+    document.getElementById("output_keliling").textContent = "";
+    document.getElementById("output-section-keliling").hidden = true;
+}

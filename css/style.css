@@ -51,7 +51,8 @@ input {
     margin: 0.5rem 0;
 }
 
-.output-section-luas {
+.output-section-luas,
+.output-section-keliling {
     background-color: #00f7ff;
     color: #000000;
     border-radius: 10px;
